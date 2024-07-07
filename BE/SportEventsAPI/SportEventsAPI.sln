@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportEventsAPI", "SportEventsAPI.csproj", "{D90C9AD9-9682-4087-AEDF-950408E625CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportEventsAPI.Tests", "..\SportEventsAPI.Tests\SportEventsAPI.Tests.csproj", "{CBC68388-31A4-4E4A-BE28-435C3BFCB1D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D90C9AD9-9682-4087-AEDF-950408E625CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90C9AD9-9682-4087-AEDF-950408E625CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90C9AD9-9682-4087-AEDF-950408E625CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90C9AD9-9682-4087-AEDF-950408E625CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC68388-31A4-4E4A-BE28-435C3BFCB1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC68388-31A4-4E4A-BE28-435C3BFCB1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC68388-31A4-4E4A-BE28-435C3BFCB1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC68388-31A4-4E4A-BE28-435C3BFCB1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB03E51B-1044-49DE-9260-B438BB49C818}
+	EndGlobalSection
+EndGlobal

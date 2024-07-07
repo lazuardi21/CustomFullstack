@@ -1,0 +1,1503 @@
+2024-07-02 22:57:50.2779 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-07-02 22:57:50.3415 DEBUG Hosting starting 
+2024-07-02 22:57:50.3621 INFO User profile is available. Using 'C:\Users\lazu21\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-07-02 22:57:50.3642 DEBUG Reading data from file 'C:\Users\lazu21\AppData\Local\ASP.NET\DataProtection-Keys\key-27839b8d-cc3b-4ca4-9a79-786f06d4883e.xml'. 
+2024-07-02 22:57:50.3642 DEBUG Reading data from file 'C:\Users\lazu21\AppData\Local\ASP.NET\DataProtection-Keys\key-ccb39ff1-2107-4e8b-a572-c7cb3269db58.xml'. 
+2024-07-02 22:57:50.3642 DEBUG Found key {27839b8d-cc3b-4ca4-9a79-786f06d4883e}. 
+2024-07-02 22:57:50.3642 DEBUG Found key {ccb39ff1-2107-4e8b-a572-c7cb3269db58}. 
+2024-07-02 22:57:50.3642 DEBUG Considering key {27839b8d-cc3b-4ca4-9a79-786f06d4883e} with expiration date 2024-09-30 08:19:48Z as default key. 
+2024-07-02 22:57:50.3642 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-07-02 22:57:50.3642 DEBUG Decrypting secret element using Windows DPAPI. 
+2024-07-02 22:57:50.3642 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-07-02 22:57:50.3804 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-07-02 22:57:50.3804 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-07-02 22:57:50.3804 DEBUG Using key {27839b8d-cc3b-4ca4-9a79-786f06d4883e} as the default key. 
+2024-07-02 22:57:50.3804 DEBUG Key ring with default key {27839b8d-cc3b-4ca4-9a79-786f06d4883e} was loaded during application startup. 
+2024-07-02 22:57:50.4438 INFO Now listening on: http://localhost:5240 
+2024-07-02 22:57:50.4438 DEBUG Loaded hosting startup assembly SportEventsAPI 
+2024-07-02 22:57:50.4438 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-07-02 22:57:50.4438 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-07-02 22:57:50.4438 INFO Application started. Press Ctrl+C to shut down. 
+2024-07-02 22:57:50.4438 INFO Hosting environment: Development 
+2024-07-02 22:57:50.4438 INFO Content root path: D:\Project\CompanyTests\VoxTeneo\TestApp1\SportEventsAPI\ 
+2024-07-02 22:57:50.4438 DEBUG Hosting started 
+2024-07-02 22:57:50.6014 DEBUG Connection id "0HN4QLUSRT1JB" accepted. 
+2024-07-02 22:57:50.6014 DEBUG Connection id "0HN4QLUSRT1JC" accepted. 
+2024-07-02 22:57:50.6014 DEBUG Connection id "0HN4QLUSRT1JB" started. 
+2024-07-02 22:57:50.6014 DEBUG Connection id "0HN4QLUSRT1JC" started. 
+2024-07-02 22:57:50.6208 DEBUG Connection id "0HN4QLUSRT1JC" received FIN. 
+2024-07-02 22:57:50.6208 DEBUG Connection id "0HN4QLUSRT1JB" received FIN. 
+2024-07-02 22:57:50.6360 DEBUG Connection id "0HN4QLUSRT1JB" sending FIN because: "The client closed the connection." 
+2024-07-02 22:57:50.6360 DEBUG Connection id "0HN4QLUSRT1JC" sending FIN because: "The client closed the connection." 
+2024-07-02 22:57:50.6360 DEBUG Connection id "0HN4QLUSRT1JC" disconnecting. 
+2024-07-02 22:57:50.6360 DEBUG Connection id "0HN4QLUSRT1JB" disconnecting. 
+2024-07-02 22:57:50.6360 DEBUG Connection id "0HN4QLUSRT1JC" stopped. 
+2024-07-02 22:57:50.6360 DEBUG Connection id "0HN4QLUSRT1JB" stopped. 
+2024-07-02 22:57:50.7528 DEBUG Connection id "0HN4QLUSRT1JD" accepted. 
+2024-07-02 22:57:50.7528 DEBUG Connection id "0HN4QLUSRT1JD" started. 
+2024-07-02 22:57:50.7702 INFO Request starting HTTP/1.1 GET http://localhost:5240/swagger/index.html - - 
+2024-07-02 22:57:50.7946 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2024-07-02 22:57:50.7946 TRACE All hosts are allowed. 
+2024-07-02 22:57:50.8104 DEBUG No candidates found for the request path '/swagger/index.html' 
+2024-07-02 22:57:50.8104 DEBUG Request did not match any endpoints 
+2024-07-02 22:57:50.8721 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2024-07-02 22:57:50.9501 DEBUG Response markup was updated to include browser refresh script injection. 
+2024-07-02 22:57:50.9501 DEBUG Connection id "0HN4QLUSRT1JD" completed keep alive response. 
+2024-07-02 22:57:50.9501 INFO Request finished HTTP/1.1 GET http://localhost:5240/swagger/index.html - - - 200 - text/html;charset=utf-8 182.0555ms 
+2024-07-02 22:57:51.0143 DEBUG Connection id "0HN4QLUSRT1JE" accepted. 
+2024-07-02 22:57:51.0143 DEBUG Connection id "0HN4QLUSRT1JE" started. 
+2024-07-02 22:57:51.0143 INFO Request starting HTTP/1.1 GET http://localhost:5240/_vs/browserLink - - 
+2024-07-02 22:57:51.0143 INFO Request starting HTTP/1.1 GET http://localhost:5240/_framework/aspnetcore-browser-refresh.js - - 
+2024-07-02 22:57:51.0206 DEBUG Connection id "0HN4QLUSRT1JD" completed keep alive response. 
+2024-07-02 22:57:51.0206 INFO Request finished HTTP/1.1 GET http://localhost:5240/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 4.9846ms 
+2024-07-02 22:57:51.0206 DEBUG Connection id "0HN4QLUSRT1JE" completed keep alive response. 
+2024-07-02 22:57:51.0206 INFO Request finished HTTP/1.1 GET http://localhost:5240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.1696ms 
+2024-07-02 22:57:51.1403 INFO Request starting HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - - 
+2024-07-02 22:57:51.1403 TRACE All hosts are allowed. 
+2024-07-02 22:57:51.1403 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-07-02 22:57:51.1403 DEBUG Request did not match any endpoints 
+2024-07-02 22:57:51.2247 DEBUG Connection id "0HN4QLUSRT1JE" completed keep alive response. 
+2024-07-02 22:57:51.2247 INFO Request finished HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.4618ms 
+2024-07-02 22:57:57.7378 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 22:57:57.7378 TRACE All hosts are allowed. 
+2024-07-02 22:57:57.7412 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 22:57:57.7412 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 22:57:57.7412 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:57:57.7412 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 22:57:57.7412 WARN Failed to determine the https port for redirect. 
+2024-07-02 22:57:57.7813 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 22:57:57.7870 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:57:57.7870 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 22:57:57.7870 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 22:57:57.7870 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 22:57:57.7870 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 22:57:57.7870 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 22:57:57.7870 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 22:57:57.7870 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:57:57.9049 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-07-02 22:57:57.9449 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:57:57.9449 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:57:57.9449 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:57:57.9449 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:57:57.9449 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:57:57.9449 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 22:57:58.5940 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 22:57:58.6523 DEBUG Compiling query expression: 
+'DbSet<User>()
+    .Select(u => new UserResponse{ 
+        Id = u.Id, 
+        FirstName = u.FirstName, 
+        LastName = u.LastName, 
+        Email = u.Email 
+    }
+    )' 
+2024-07-02 22:57:58.8874 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<UserResponse>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            Id -> 0
+            FirstName -> 1
+            LastName -> 2
+            Email -> 3
+        SELECT u.Id, u.FirstName, u.LastName, u.Email
+        FROM Users AS u), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserResponse>, 
+    SportEventsAPI.Data.SportEventsAPI.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-07-02 22:57:58.9266 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 22:57:58.9539 DEBUG Created DbCommand for 'ExecuteReader' (25ms). 
+2024-07-02 22:57:58.9607 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:57:59.1650 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:57:59.1786 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:57:59.2166 INFO Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:57:59.2408 DEBUG A data reader was disposed. 
+2024-07-02 22:57:59.2408 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:57:59.2572 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:57:59.2572 INFO Get All User 
+2024-07-02 22:57:59.2572 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1314.4866ms. 
+2024-07-02 22:57:59.2572 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:57:59.2572 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:57:59.2572 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:57:59.2572 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:57:59.2702 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:57:59.2702 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:57:59.2702 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:57:59.2702 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 22:57:59.2702 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 22:57:59.2702 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 22:57:59.2702 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 22:57:59.2702 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 22:57:59.2702 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 22:57:59.2702 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 22:57:59.2702 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:57:59.2702 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:57:59.2702 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:57:59.2702 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 1481.3123ms 
+2024-07-02 22:57:59.2702 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:57:59.2702 DEBUG Connection id "0HN4QLUSRT1JE" completed keep alive response. 
+2024-07-02 22:57:59.2854 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 22:57:59.2854 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 1550.3158ms 
+2024-07-02 22:58:05.8415 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 22:58:05.8415 TRACE All hosts are allowed. 
+2024-07-02 22:58:05.8415 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 22:58:05.8415 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 22:58:05.8415 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:05.8415 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 22:58:05.8415 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 22:58:05.8415 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:05.8415 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 22:58:05.8415 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 22:58:05.8415 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 22:58:05.8415 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 22:58:05.8415 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 22:58:05.8415 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 22:58:05.8415 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:05.8475 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:05.8475 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:05.8475 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:05.8475 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:05.8475 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:05.8475 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 22:58:05.8475 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 22:58:05.8475 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 22:58:05.8475 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 22:58:05.8475 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:05.8475 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:05.8475 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:05.8475 INFO Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:05.8475 DEBUG A data reader was disposed. 
+2024-07-02 22:58:05.8475 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:05.8475 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:05.8475 INFO Get All User 
+2024-07-02 22:58:05.8475 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8.5806ms. 
+2024-07-02 22:58:05.8475 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:05.8475 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:05.8475 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:05.8475 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:05.8475 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:05.8475 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:05.8475 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:05.8475 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 22:58:05.8475 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 22:58:05.8475 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 22:58:05.8475 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 22:58:05.8475 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 22:58:05.8475 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 22:58:05.8475 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 22:58:05.8475 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:05.8475 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:05.8475 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:05.8475 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 13.6464ms 
+2024-07-02 22:58:05.8475 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:05.8475 DEBUG Connection id "0HN4QLUSRT1JE" completed keep alive response. 
+2024-07-02 22:58:05.8475 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 22:58:05.8475 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 15.0682ms 
+2024-07-02 22:58:06.2307 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 22:58:06.2307 TRACE All hosts are allowed. 
+2024-07-02 22:58:06.2307 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 22:58:06.2307 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 22:58:06.2307 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.2307 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 22:58:06.2307 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 22:58:06.2307 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.2307 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 22:58:06.2307 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 22:58:06.2307 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 22:58:06.2307 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 22:58:06.2307 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 22:58:06.2307 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 22:58:06.2307 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:06.2307 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:06.2307 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.2307 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.2307 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.2307 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.2307 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 22:58:06.2733 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 22:58:06.2733 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 22:58:06.2733 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 22:58:06.2733 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.2733 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.2733 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:06.2733 INFO Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:06.2733 DEBUG A data reader was disposed. 
+2024-07-02 22:58:06.2733 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.2733 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.2733 INFO Get All User 
+2024-07-02 22:58:06.2733 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 42.5045ms. 
+2024-07-02 22:58:06.2733 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.2733 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.2733 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.2733 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.2733 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.2733 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.2733 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:06.2733 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 22:58:06.2733 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 22:58:06.2733 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 22:58:06.2733 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 22:58:06.2733 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 22:58:06.2733 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 22:58:06.2733 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 22:58:06.2733 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:06.2733 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.2733 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.2733 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 44.8078ms 
+2024-07-02 22:58:06.2733 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.2733 DEBUG Connection id "0HN4QLUSRT1JE" completed keep alive response. 
+2024-07-02 22:58:06.2733 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 22:58:06.2733 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 47.7061ms 
+2024-07-02 22:58:06.4005 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 22:58:06.4005 TRACE All hosts are allowed. 
+2024-07-02 22:58:06.4005 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 22:58:06.4005 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 22:58:06.4005 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.4005 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 22:58:06.4005 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 22:58:06.4005 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.4005 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 22:58:06.4005 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 22:58:06.4005 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 22:58:06.4005 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 22:58:06.4005 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 22:58:06.4005 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 22:58:06.4005 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:06.4005 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:06.4005 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.4005 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.4005 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.4005 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.4005 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 22:58:06.4005 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 22:58:06.4005 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 22:58:06.4005 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 22:58:06.4005 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.4005 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.4005 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:06.4005 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:06.4005 DEBUG A data reader was disposed. 
+2024-07-02 22:58:06.4005 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.4005 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.4005 INFO Get All User 
+2024-07-02 22:58:06.4005 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.833ms. 
+2024-07-02 22:58:06.4005 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.4005 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.4005 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.4005 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.4005 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.4005 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.4005 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:06.4005 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 22:58:06.4005 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 22:58:06.4005 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 22:58:06.4005 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 22:58:06.4005 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 22:58:06.4005 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 22:58:06.4005 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 22:58:06.4005 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:06.4005 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.4005 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.4005 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 2.9283ms 
+2024-07-02 22:58:06.4005 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.4005 DEBUG Connection id "0HN4QLUSRT1JE" completed keep alive response. 
+2024-07-02 22:58:06.4005 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 22:58:06.4005 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 3.6032ms 
+2024-07-02 22:58:06.5741 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 22:58:06.5741 TRACE All hosts are allowed. 
+2024-07-02 22:58:06.5741 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 22:58:06.5741 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 22:58:06.5741 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.5741 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 22:58:06.5741 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 22:58:06.5741 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.5741 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 22:58:06.5741 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 22:58:06.5741 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 22:58:06.5741 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 22:58:06.5741 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 22:58:06.5741 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 22:58:06.5741 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:06.5741 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:06.5741 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.5741 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.5741 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.5741 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.5741 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 22:58:06.5741 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 22:58:06.5741 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 22:58:06.5741 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 22:58:06.5741 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.5741 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.5741 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:06.5741 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:06.5741 DEBUG A data reader was disposed. 
+2024-07-02 22:58:06.5741 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.5741 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.5741 INFO Get All User 
+2024-07-02 22:58:06.5741 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.7883ms. 
+2024-07-02 22:58:06.5741 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.5741 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.5741 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.5741 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.5741 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.5741 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.5741 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:06.5741 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 22:58:06.5741 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 22:58:06.5741 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 22:58:06.5741 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 22:58:06.5741 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 22:58:06.5741 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 22:58:06.5741 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 22:58:06.5741 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:06.5741 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.5741 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.5741 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 3.6846ms 
+2024-07-02 22:58:06.5741 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.5741 DEBUG Connection id "0HN4QLUSRT1JE" completed keep alive response. 
+2024-07-02 22:58:06.5741 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 22:58:06.5741 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 4.2133ms 
+2024-07-02 22:58:06.7451 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 22:58:06.7451 TRACE All hosts are allowed. 
+2024-07-02 22:58:06.7451 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 22:58:06.7451 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 22:58:06.7451 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.7451 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 22:58:06.7451 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 22:58:06.7451 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.7451 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 22:58:06.7451 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 22:58:06.7451 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 22:58:06.7451 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 22:58:06.7451 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 22:58:06.7451 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 22:58:06.7451 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:06.7451 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:06.7451 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.7451 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.7451 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.7451 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.7451 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 22:58:06.7451 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 22:58:06.7451 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 22:58:06.7451 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 22:58:06.7451 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.7451 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.7451 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:06.7451 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:06.7451 DEBUG A data reader was disposed. 
+2024-07-02 22:58:06.7451 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.7451 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.7451 INFO Get All User 
+2024-07-02 22:58:06.7451 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4976ms. 
+2024-07-02 22:58:06.7451 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.7451 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.7451 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.7451 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.7451 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.7451 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.7451 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:06.7451 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 22:58:06.7451 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 22:58:06.7451 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 22:58:06.7451 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 22:58:06.7451 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 22:58:06.7451 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 22:58:06.7451 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 22:58:06.7451 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:06.7451 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.7451 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.7451 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 3.6839ms 
+2024-07-02 22:58:06.7451 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.7451 DEBUG Connection id "0HN4QLUSRT1JE" completed keep alive response. 
+2024-07-02 22:58:06.7451 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 22:58:06.7451 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 4.1717ms 
+2024-07-02 22:58:06.9190 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 22:58:06.9190 TRACE All hosts are allowed. 
+2024-07-02 22:58:06.9190 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 22:58:06.9190 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 22:58:06.9190 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.9190 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 22:58:06.9190 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 22:58:06.9190 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.9190 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 22:58:06.9190 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 22:58:06.9190 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 22:58:06.9190 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 22:58:06.9190 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 22:58:06.9190 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 22:58:06.9190 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:06.9190 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:06.9190 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.9190 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.9190 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.9190 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.9190 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 22:58:06.9190 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 22:58:06.9190 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 22:58:06.9190 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 22:58:06.9190 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.9190 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.9190 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:06.9190 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:06.9190 DEBUG A data reader was disposed. 
+2024-07-02 22:58:06.9190 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.9190 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:06.9190 INFO Get All User 
+2024-07-02 22:58:06.9190 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.1628ms. 
+2024-07-02 22:58:06.9190 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.9190 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:06.9190 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.9190 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:06.9190 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.9190 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.9190 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:06.9190 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 22:58:06.9190 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 22:58:06.9190 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 22:58:06.9190 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 22:58:06.9190 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 22:58:06.9190 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 22:58:06.9190 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 22:58:06.9190 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:06.9190 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.9190 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:06.9190 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 3.1778ms 
+2024-07-02 22:58:06.9190 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:06.9190 DEBUG Connection id "0HN4QLUSRT1JE" completed keep alive response. 
+2024-07-02 22:58:06.9190 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 22:58:06.9190 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 3.7687ms 
+2024-07-02 22:58:07.0793 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 22:58:07.0793 TRACE All hosts are allowed. 
+2024-07-02 22:58:07.0793 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 22:58:07.0793 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 22:58:07.0793 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:07.0793 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 22:58:07.0793 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 22:58:07.0793 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:07.0793 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 22:58:07.0793 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 22:58:07.0793 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 22:58:07.0793 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 22:58:07.0793 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 22:58:07.0793 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 22:58:07.0793 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:07.0793 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 22:58:07.0793 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:07.0793 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:07.0793 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:07.0793 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:07.0793 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 22:58:07.0793 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 22:58:07.0793 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 22:58:07.0793 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 22:58:07.0793 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:07.0793 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:07.0793 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:07.0793 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 22:58:07.0793 DEBUG A data reader was disposed. 
+2024-07-02 22:58:07.0793 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:07.0823 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 22:58:07.0823 INFO Get All User 
+2024-07-02 22:58:07.0823 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4271ms. 
+2024-07-02 22:58:07.0823 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:07.0823 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 22:58:07.0823 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:07.0823 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 22:58:07.0823 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:07.0823 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:07.0823 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:07.0823 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 22:58:07.0823 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 22:58:07.0823 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 22:58:07.0823 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 22:58:07.0823 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 22:58:07.0823 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 22:58:07.0823 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 22:58:07.0823 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 22:58:07.0823 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:07.0823 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 22:58:07.0823 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 3.7605ms 
+2024-07-02 22:58:07.0823 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 22:58:07.0823 DEBUG Connection id "0HN4QLUSRT1JE" completed keep alive response. 
+2024-07-02 22:58:07.0823 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 22:58:07.0823 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 4.3161ms 
+2024-07-02 23:02:19.5693 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-07-02 23:02:19.6337 DEBUG Hosting starting 
+2024-07-02 23:02:19.6571 INFO User profile is available. Using 'C:\Users\lazu21\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-07-02 23:02:19.6571 DEBUG Reading data from file 'C:\Users\lazu21\AppData\Local\ASP.NET\DataProtection-Keys\key-27839b8d-cc3b-4ca4-9a79-786f06d4883e.xml'. 
+2024-07-02 23:02:19.6606 DEBUG Reading data from file 'C:\Users\lazu21\AppData\Local\ASP.NET\DataProtection-Keys\key-ccb39ff1-2107-4e8b-a572-c7cb3269db58.xml'. 
+2024-07-02 23:02:19.6606 DEBUG Found key {27839b8d-cc3b-4ca4-9a79-786f06d4883e}. 
+2024-07-02 23:02:19.6606 DEBUG Found key {ccb39ff1-2107-4e8b-a572-c7cb3269db58}. 
+2024-07-02 23:02:19.6606 DEBUG Considering key {27839b8d-cc3b-4ca4-9a79-786f06d4883e} with expiration date 2024-09-30 08:19:48Z as default key. 
+2024-07-02 23:02:19.6606 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-07-02 23:02:19.6606 DEBUG Decrypting secret element using Windows DPAPI. 
+2024-07-02 23:02:19.6606 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-07-02 23:02:19.6606 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-07-02 23:02:19.6606 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-07-02 23:02:19.6775 DEBUG Using key {27839b8d-cc3b-4ca4-9a79-786f06d4883e} as the default key. 
+2024-07-02 23:02:19.6775 DEBUG Key ring with default key {27839b8d-cc3b-4ca4-9a79-786f06d4883e} was loaded during application startup. 
+2024-07-02 23:02:19.7410 INFO Now listening on: http://localhost:5240 
+2024-07-02 23:02:19.7410 DEBUG Loaded hosting startup assembly SportEventsAPI 
+2024-07-02 23:02:19.7410 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-07-02 23:02:19.7410 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-07-02 23:02:19.7410 INFO Application started. Press Ctrl+C to shut down. 
+2024-07-02 23:02:19.7410 INFO Hosting environment: Development 
+2024-07-02 23:02:19.7410 INFO Content root path: D:\Project\CompanyTests\VoxTeneo\TestApp1\SportEventsAPI\ 
+2024-07-02 23:02:19.7410 DEBUG Hosting started 
+2024-07-02 23:02:20.2145 DEBUG Connection id "0HN4QM1D74H92" accepted. 
+2024-07-02 23:02:20.2145 DEBUG Connection id "0HN4QM1D74H93" accepted. 
+2024-07-02 23:02:20.2145 DEBUG Connection id "0HN4QM1D74H92" started. 
+2024-07-02 23:02:20.2145 DEBUG Connection id "0HN4QM1D74H93" started. 
+2024-07-02 23:02:20.2346 DEBUG Connection id "0HN4QM1D74H93" received FIN. 
+2024-07-02 23:02:20.2346 DEBUG Connection id "0HN4QM1D74H92" received FIN. 
+2024-07-02 23:02:20.2496 DEBUG Connection id "0HN4QM1D74H93" sending FIN because: "The client closed the connection." 
+2024-07-02 23:02:20.2496 DEBUG Connection id "0HN4QM1D74H92" sending FIN because: "The client closed the connection." 
+2024-07-02 23:02:20.2496 DEBUG Connection id "0HN4QM1D74H92" disconnecting. 
+2024-07-02 23:02:20.2496 DEBUG Connection id "0HN4QM1D74H93" disconnecting. 
+2024-07-02 23:02:20.2550 DEBUG Connection id "0HN4QM1D74H92" stopped. 
+2024-07-02 23:02:20.2550 DEBUG Connection id "0HN4QM1D74H93" stopped. 
+2024-07-02 23:02:20.4053 DEBUG Connection id "0HN4QM1D74H94" accepted. 
+2024-07-02 23:02:20.4053 DEBUG Connection id "0HN4QM1D74H94" started. 
+2024-07-02 23:02:20.4226 INFO Request starting HTTP/1.1 GET http://localhost:5240/swagger/index.html - - 
+2024-07-02 23:02:20.4451 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2024-07-02 23:02:20.4451 TRACE All hosts are allowed. 
+2024-07-02 23:02:20.4603 DEBUG No candidates found for the request path '/swagger/index.html' 
+2024-07-02 23:02:20.4603 DEBUG Request did not match any endpoints 
+2024-07-02 23:02:20.5257 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2024-07-02 23:02:20.6048 DEBUG Response markup was updated to include browser refresh script injection. 
+2024-07-02 23:02:20.6048 DEBUG Connection id "0HN4QM1D74H94" completed keep alive response. 
+2024-07-02 23:02:20.6048 INFO Request finished HTTP/1.1 GET http://localhost:5240/swagger/index.html - - - 200 - text/html;charset=utf-8 184.4181ms 
+2024-07-02 23:02:20.6691 DEBUG Connection id "0HN4QM1D74H95" accepted. 
+2024-07-02 23:02:20.6691 DEBUG Connection id "0HN4QM1D74H95" started. 
+2024-07-02 23:02:20.6691 INFO Request starting HTTP/1.1 GET http://localhost:5240/_vs/browserLink - - 
+2024-07-02 23:02:20.6691 INFO Request starting HTTP/1.1 GET http://localhost:5240/_framework/aspnetcore-browser-refresh.js - - 
+2024-07-02 23:02:20.6691 DEBUG Connection id "0HN4QM1D74H94" completed keep alive response. 
+2024-07-02 23:02:20.6691 INFO Request finished HTTP/1.1 GET http://localhost:5240/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 3.7011ms 
+2024-07-02 23:02:20.6864 DEBUG Connection id "0HN4QM1D74H95" completed keep alive response. 
+2024-07-02 23:02:20.6864 INFO Request finished HTTP/1.1 GET http://localhost:5240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.0595ms 
+2024-07-02 23:02:20.7967 INFO Request starting HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - - 
+2024-07-02 23:02:20.7967 TRACE All hosts are allowed. 
+2024-07-02 23:02:20.7967 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-07-02 23:02:20.7967 DEBUG Request did not match any endpoints 
+2024-07-02 23:02:20.8765 DEBUG Connection id "0HN4QM1D74H95" completed keep alive response. 
+2024-07-02 23:02:20.8765 INFO Request finished HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.8551ms 
+2024-07-02 23:02:27.3680 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:02:27.3680 TRACE All hosts are allowed. 
+2024-07-02 23:02:27.3680 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:02:27.3680 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:02:27.3680 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:27.3680 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:02:27.3680 WARN Failed to determine the https port for redirect. 
+2024-07-02 23:02:27.4118 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:02:27.4118 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:27.4309 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:02:27.4309 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:02:27.4309 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:02:27.4309 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:02:27.4309 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:02:27.4309 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:02:27.4309 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:02:27.5656 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-07-02 23:02:27.5868 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:02:27.5868 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:27.5868 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:27.5868 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:27.5868 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:27.5868 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:02:28.2730 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:02:28.3468 DEBUG Compiling query expression: 
+'DbSet<User>()
+    .Select(u => new UserResponse{ 
+        Id = u.Id, 
+        FirstName = u.FirstName, 
+        LastName = u.LastName, 
+        Email = u.Email 
+    }
+    )' 
+2024-07-02 23:02:28.5470 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<UserResponse>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            Id -> 0
+            FirstName -> 1
+            LastName -> 2
+            Email -> 3
+        SELECT u.Id, u.FirstName, u.LastName, u.Email
+        FROM Users AS u), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserResponse>, 
+    SportEventsAPI.Data.SportEventsAPI.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-07-02 23:02:28.6060 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:02:28.6480 DEBUG Created DbCommand for 'ExecuteReader' (41ms). 
+2024-07-02 23:02:28.6480 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:28.8791 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:28.8791 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:02:28.9519 INFO Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:02:28.9831 DEBUG A data reader was disposed. 
+2024-07-02 23:02:28.9890 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:28.9890 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:28.9890 INFO Get All User 
+2024-07-02 23:02:28.9890 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1407.9794ms. 
+2024-07-02 23:02:28.9890 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:28.9890 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:28.9890 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:28.9890 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:28.9890 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:28.9890 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:28.9890 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:02:28.9890 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:02:29.0058 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:02:29.0058 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:02:29.0058 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:02:29.0058 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:02:29.0058 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:02:29.0058 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:02:29.0058 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:02:29.0058 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:29.0058 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:29.0058 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 1578.3538ms 
+2024-07-02 23:02:29.0058 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:29.0058 DEBUG Connection id "0HN4QM1D74H95" completed keep alive response. 
+2024-07-02 23:02:29.0058 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:02:29.0208 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 1652.7938ms 
+2024-07-02 23:02:32.7727 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:02:32.7727 TRACE All hosts are allowed. 
+2024-07-02 23:02:32.7727 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:02:32.7727 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:02:32.7727 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:32.7727 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:02:32.7727 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:02:32.7727 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:32.7727 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:02:32.7727 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:02:32.7727 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:02:32.7727 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:02:32.7727 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:02:32.7727 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:02:32.7727 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:02:32.7727 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:02:32.7727 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:32.7727 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:32.7727 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:32.7727 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:32.7727 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:02:32.7727 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:02:32.7727 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:02:32.7727 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:02:32.7727 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:32.7727 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:32.7727 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:02:32.7872 INFO Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:02:32.7872 DEBUG A data reader was disposed. 
+2024-07-02 23:02:32.7872 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:32.7872 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:32.7872 INFO Get All User 
+2024-07-02 23:02:32.7872 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8.2077ms. 
+2024-07-02 23:02:32.7872 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:32.7872 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:32.7872 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:32.7872 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:32.7872 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:32.7872 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:32.7872 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:02:32.7872 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:02:32.7872 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:02:32.7872 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:02:32.7872 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:02:32.7872 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:02:32.7872 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:02:32.7872 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:02:32.7872 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:02:32.7872 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:32.7872 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:32.7872 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 14.0503ms 
+2024-07-02 23:02:32.7872 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:32.7872 DEBUG Connection id "0HN4QM1D74H95" completed keep alive response. 
+2024-07-02 23:02:32.7872 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:02:32.7872 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 15.5757ms 
+2024-07-02 23:02:33.3905 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:02:33.3905 TRACE All hosts are allowed. 
+2024-07-02 23:02:33.3905 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:02:33.3905 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:02:33.3905 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:33.3905 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:02:33.3905 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:02:33.3905 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:33.3905 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:02:33.3905 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:02:33.3905 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:02:33.3905 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:02:33.3905 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:02:33.3905 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:02:33.3905 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:02:33.3905 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:02:33.3905 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:33.3905 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:33.3905 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:33.3905 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:33.3905 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:02:33.4261 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:02:33.4261 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:02:33.4261 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:02:33.4261 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:33.4261 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:33.4261 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:02:33.4261 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:02:33.4261 DEBUG A data reader was disposed. 
+2024-07-02 23:02:33.4261 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:33.4261 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:33.4261 INFO Get All User 
+2024-07-02 23:02:33.4261 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 34.1882ms. 
+2024-07-02 23:02:33.4261 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:33.4261 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:33.4261 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:33.4261 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:33.4261 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:33.4261 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:33.4261 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:02:33.4261 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:02:33.4261 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:02:33.4261 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:02:33.4261 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:02:33.4261 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:02:33.4261 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:02:33.4261 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:02:33.4261 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:02:33.4261 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:33.4261 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:33.4261 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 35.9673ms 
+2024-07-02 23:02:33.4261 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:33.4261 DEBUG Connection id "0HN4QM1D74H95" completed keep alive response. 
+2024-07-02 23:02:33.4261 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:02:33.4261 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 38.2559ms 
+2024-07-02 23:02:34.0350 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:02:34.0350 TRACE All hosts are allowed. 
+2024-07-02 23:02:34.0350 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:02:34.0353 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:02:34.0353 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:34.0353 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:02:34.0353 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:02:34.0353 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:34.0353 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:02:34.0353 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:02:34.0353 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:02:34.0353 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:02:34.0353 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:02:34.0353 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:02:34.0353 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:02:34.0353 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:02:34.0353 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:34.0353 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:34.0353 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:34.0353 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:34.0353 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:02:34.0353 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:02:34.0353 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:02:34.0353 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:02:34.0353 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:34.0353 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:34.0353 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:02:34.0353 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:02:34.0353 DEBUG A data reader was disposed. 
+2024-07-02 23:02:34.0353 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:34.0353 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:02:34.0353 INFO Get All User 
+2024-07-02 23:02:34.0353 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4002ms. 
+2024-07-02 23:02:34.0353 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:34.0353 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:02:34.0353 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:34.0353 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:02:34.0353 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:34.0353 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:34.0353 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:02:34.0353 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:02:34.0353 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:02:34.0353 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:02:34.0353 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:02:34.0353 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:02:34.0353 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:02:34.0353 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:02:34.0353 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:02:34.0353 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:34.0353 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:02:34.0353 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 3.0193ms 
+2024-07-02 23:02:34.0353 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:02:34.0353 DEBUG Connection id "0HN4QM1D74H95" completed keep alive response. 
+2024-07-02 23:02:34.0353 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:02:34.0353 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 3.7132ms 
+2024-07-02 23:04:10.1344 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-07-02 23:04:10.1959 DEBUG Hosting starting 
+2024-07-02 23:04:10.2507 INFO User profile is available. Using 'C:\Users\lazu21\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-07-02 23:04:10.2507 DEBUG Reading data from file 'C:\Users\lazu21\AppData\Local\ASP.NET\DataProtection-Keys\key-27839b8d-cc3b-4ca4-9a79-786f06d4883e.xml'. 
+2024-07-02 23:04:10.2507 DEBUG Reading data from file 'C:\Users\lazu21\AppData\Local\ASP.NET\DataProtection-Keys\key-ccb39ff1-2107-4e8b-a572-c7cb3269db58.xml'. 
+2024-07-02 23:04:10.2566 DEBUG Found key {27839b8d-cc3b-4ca4-9a79-786f06d4883e}. 
+2024-07-02 23:04:10.2566 DEBUG Found key {ccb39ff1-2107-4e8b-a572-c7cb3269db58}. 
+2024-07-02 23:04:10.2566 DEBUG Considering key {27839b8d-cc3b-4ca4-9a79-786f06d4883e} with expiration date 2024-09-30 08:19:48Z as default key. 
+2024-07-02 23:04:10.2566 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-07-02 23:04:10.2566 DEBUG Decrypting secret element using Windows DPAPI. 
+2024-07-02 23:04:10.2566 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-07-02 23:04:10.2566 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-07-02 23:04:10.2697 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-07-02 23:04:10.2697 DEBUG Using key {27839b8d-cc3b-4ca4-9a79-786f06d4883e} as the default key. 
+2024-07-02 23:04:10.2697 DEBUG Key ring with default key {27839b8d-cc3b-4ca4-9a79-786f06d4883e} was loaded during application startup. 
+2024-07-02 23:04:10.3412 INFO Now listening on: http://localhost:5240 
+2024-07-02 23:04:10.3412 DEBUG Loaded hosting startup assembly SportEventsAPI 
+2024-07-02 23:04:10.3412 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-07-02 23:04:10.3412 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-07-02 23:04:10.3412 INFO Application started. Press Ctrl+C to shut down. 
+2024-07-02 23:04:10.3412 INFO Hosting environment: Development 
+2024-07-02 23:04:10.3412 INFO Content root path: D:\Project\CompanyTests\VoxTeneo\TestApp1\SportEventsAPI\ 
+2024-07-02 23:04:10.3412 DEBUG Hosting started 
+2024-07-02 23:04:10.7519 DEBUG Connection id "0HN4QM2E5AC17" received FIN. 
+2024-07-02 23:04:10.7519 DEBUG Connection id "0HN4QM2E5AC18" received FIN. 
+2024-07-02 23:04:10.7608 DEBUG Connection id "0HN4QM2E5AC18" accepted. 
+2024-07-02 23:04:10.7608 DEBUG Connection id "0HN4QM2E5AC17" accepted. 
+2024-07-02 23:04:10.7608 DEBUG Connection id "0HN4QM2E5AC18" started. 
+2024-07-02 23:04:10.7608 DEBUG Connection id "0HN4QM2E5AC17" started. 
+2024-07-02 23:04:10.7608 DEBUG Connection id "0HN4QM2E5AC18" sending FIN because: "The client closed the connection." 
+2024-07-02 23:04:10.7608 DEBUG Connection id "0HN4QM2E5AC17" sending FIN because: "The client closed the connection." 
+2024-07-02 23:04:10.7608 DEBUG Connection id "0HN4QM2E5AC17" disconnecting. 
+2024-07-02 23:04:10.7608 DEBUG Connection id "0HN4QM2E5AC18" disconnecting. 
+2024-07-02 23:04:10.7768 DEBUG Connection id "0HN4QM2E5AC17" stopped. 
+2024-07-02 23:04:10.7768 DEBUG Connection id "0HN4QM2E5AC18" stopped. 
+2024-07-02 23:04:10.8925 DEBUG Connection id "0HN4QM2E5AC19" accepted. 
+2024-07-02 23:04:10.8925 DEBUG Connection id "0HN4QM2E5AC19" started. 
+2024-07-02 23:04:10.9091 INFO Request starting HTTP/1.1 GET http://localhost:5240/swagger/index.html - - 
+2024-07-02 23:04:10.9324 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2024-07-02 23:04:10.9324 TRACE All hosts are allowed. 
+2024-07-02 23:04:10.9481 DEBUG No candidates found for the request path '/swagger/index.html' 
+2024-07-02 23:04:10.9481 DEBUG Request did not match any endpoints 
+2024-07-02 23:04:11.0121 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2024-07-02 23:04:11.1012 DEBUG Response markup was updated to include browser refresh script injection. 
+2024-07-02 23:04:11.1012 DEBUG Connection id "0HN4QM2E5AC19" completed keep alive response. 
+2024-07-02 23:04:11.1012 INFO Request finished HTTP/1.1 GET http://localhost:5240/swagger/index.html - - - 200 - text/html;charset=utf-8 195.1763ms 
+2024-07-02 23:04:11.1690 DEBUG Connection id "0HN4QM2E5AC1A" accepted. 
+2024-07-02 23:04:11.1690 DEBUG Connection id "0HN4QM2E5AC1A" started. 
+2024-07-02 23:04:11.1690 INFO Request starting HTTP/1.1 GET http://localhost:5240/_vs/browserLink - - 
+2024-07-02 23:04:11.1690 INFO Request starting HTTP/1.1 GET http://localhost:5240/_framework/aspnetcore-browser-refresh.js - - 
+2024-07-02 23:04:11.1690 DEBUG Connection id "0HN4QM2E5AC19" completed keep alive response. 
+2024-07-02 23:04:11.1690 INFO Request finished HTTP/1.1 GET http://localhost:5240/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 2.9225ms 
+2024-07-02 23:04:11.1862 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:11.1862 INFO Request finished HTTP/1.1 GET http://localhost:5240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.0441ms 
+2024-07-02 23:04:11.2931 INFO Request starting HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - - 
+2024-07-02 23:04:11.2931 TRACE All hosts are allowed. 
+2024-07-02 23:04:11.2931 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-07-02 23:04:11.2931 DEBUG Request did not match any endpoints 
+2024-07-02 23:04:11.3745 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:11.3745 INFO Request finished HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.5065ms 
+2024-07-02 23:04:17.0926 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:04:17.0926 TRACE All hosts are allowed. 
+2024-07-02 23:04:17.0926 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:04:17.0926 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:04:17.0926 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:17.0986 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:04:17.0986 WARN Failed to determine the https port for redirect. 
+2024-07-02 23:04:17.1260 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:04:17.1289 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:17.1289 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:04:17.1289 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:04:17.1289 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:04:17.1289 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:04:17.1289 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:04:17.1289 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:04:17.1289 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:17.2250 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-07-02 23:04:17.2409 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:17.2409 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:17.2409 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:17.2409 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:17.2409 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:17.2409 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:04:17.8074 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:04:17.8638 DEBUG Compiling query expression: 
+'DbSet<User>()
+    .Select(u => new UserResponse{ 
+        Id = u.Id, 
+        FirstName = u.FirstName, 
+        LastName = u.LastName, 
+        Email = u.Email 
+    }
+    )' 
+2024-07-02 23:04:18.1145 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<UserResponse>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            Id -> 0
+            FirstName -> 1
+            LastName -> 2
+            Email -> 3
+        SELECT u.Id, u.FirstName, u.LastName, u.Email
+        FROM Users AS u), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserResponse>, 
+    SportEventsAPI.Data.SportEventsAPI.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-07-02 23:04:18.1472 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:04:18.1748 DEBUG Created DbCommand for 'ExecuteReader' (25ms). 
+2024-07-02 23:04:18.1834 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:18.4051 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:18.4120 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:18.4693 INFO Executed DbCommand (51ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:18.5001 DEBUG A data reader was disposed. 
+2024-07-02 23:04:18.5122 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:18.5122 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:18.5122 INFO Get All User 
+2024-07-02 23:04:18.5235 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1276.6785ms. 
+2024-07-02 23:04:18.5235 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:18.5235 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:18.5235 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:18.5235 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:18.5235 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:18.5235 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:18.5235 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:18.5235 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:04:18.5235 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:04:18.5235 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:04:18.5235 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:04:18.5235 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:04:18.5235 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:04:18.5235 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:04:18.5235 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:18.5235 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:18.5235 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:18.5360 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 1395.0234ms 
+2024-07-02 23:04:18.5360 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:18.5360 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:18.5360 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:04:18.5360 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 1455.4819ms 
+2024-07-02 23:04:20.1137 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:04:20.1137 TRACE All hosts are allowed. 
+2024-07-02 23:04:20.1148 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.1148 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.1148 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.1148 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:04:20.1148 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:04:20.1148 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.1148 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:04:20.1148 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:04:20.1148 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:04:20.1148 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:04:20.1148 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:04:20.1148 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:04:20.1148 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.1148 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.1148 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.1148 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.1148 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.1148 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.1148 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:04:20.1148 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:04:20.1365 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:04:20.1365 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:04:20.1365 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.1365 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.1365 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.1365 INFO Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.1365 DEBUG A data reader was disposed. 
+2024-07-02 23:04:20.1365 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.1365 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.1365 INFO Get All User 
+2024-07-02 23:04:20.1365 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.891ms. 
+2024-07-02 23:04:20.1365 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.1365 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.1365 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.1365 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.1365 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.1365 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.1365 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.1365 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:04:20.1365 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:04:20.1365 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:04:20.1365 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:04:20.1365 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:04:20.1365 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:04:20.1365 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:04:20.1365 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.1365 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.1365 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.1365 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 26.4718ms 
+2024-07-02 23:04:20.1365 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.1365 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:20.1365 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:04:20.1365 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 28.8561ms 
+2024-07-02 23:04:20.2781 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:04:20.2781 TRACE All hosts are allowed. 
+2024-07-02 23:04:20.2781 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.2781 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.2781 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.2781 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:04:20.2781 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:04:20.2781 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.2781 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:04:20.2781 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:04:20.2781 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:04:20.2781 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:04:20.2781 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:04:20.2781 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:04:20.2781 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.2781 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.2781 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.2781 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.2781 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.2781 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.2781 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:04:20.3223 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:04:20.3223 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:04:20.3223 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:04:20.3223 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.3223 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.3223 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.3223 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.3223 DEBUG A data reader was disposed. 
+2024-07-02 23:04:20.3223 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.3223 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.3223 INFO Get All User 
+2024-07-02 23:04:20.3223 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 43.061ms. 
+2024-07-02 23:04:20.3223 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.3223 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.3223 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.3223 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.3223 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.3223 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.3223 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.3223 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:04:20.3223 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:04:20.3223 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:04:20.3223 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:04:20.3223 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:04:20.3223 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:04:20.3223 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:04:20.3223 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.3223 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.3223 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.3223 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 44.6675ms 
+2024-07-02 23:04:20.3223 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.3223 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:20.3223 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:04:20.3223 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 47.5288ms 
+2024-07-02 23:04:20.4327 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:04:20.4327 TRACE All hosts are allowed. 
+2024-07-02 23:04:20.4327 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.4327 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.4327 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.4327 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:04:20.4327 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:04:20.4327 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.4327 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:04:20.4327 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:04:20.4327 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:04:20.4327 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:04:20.4327 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:04:20.4327 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:04:20.4327 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.4327 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.4327 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.4327 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.4327 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.4327 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.4327 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:04:20.4327 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:04:20.4327 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:04:20.4327 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:04:20.4327 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.4327 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.4327 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.4327 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.4327 DEBUG A data reader was disposed. 
+2024-07-02 23:04:20.4327 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.4327 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.4327 INFO Get All User 
+2024-07-02 23:04:20.4327 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4945ms. 
+2024-07-02 23:04:20.4327 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.4327 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.4327 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.4327 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.4327 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.4327 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.4327 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.4327 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:04:20.4327 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:04:20.4327 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:04:20.4327 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:04:20.4327 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:04:20.4327 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:04:20.4327 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:04:20.4327 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.4327 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.4327 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.4327 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 2.8528ms 
+2024-07-02 23:04:20.4327 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.4327 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:20.4327 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:04:20.4327 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 3.1954ms 
+2024-07-02 23:04:20.5864 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:04:20.5864 TRACE All hosts are allowed. 
+2024-07-02 23:04:20.5864 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.5864 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.5864 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.5864 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:04:20.5864 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:04:20.5864 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.5864 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:04:20.5864 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:04:20.5864 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:04:20.5864 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:04:20.5864 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:04:20.5864 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:04:20.5864 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.5864 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.5864 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.5864 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.5864 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.5864 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.5864 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:04:20.5864 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:04:20.5864 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:04:20.5864 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:04:20.5864 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.5864 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.5864 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.5864 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.5864 DEBUG A data reader was disposed. 
+2024-07-02 23:04:20.5864 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.5864 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.5864 INFO Get All User 
+2024-07-02 23:04:20.5864 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.386ms. 
+2024-07-02 23:04:20.5864 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.5864 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.5864 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.5864 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.5864 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.5864 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.5864 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.5864 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:04:20.5864 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:04:20.5864 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:04:20.5864 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:04:20.5864 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:04:20.5864 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:04:20.5864 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:04:20.5864 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.5864 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.5864 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.5864 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 2.7962ms 
+2024-07-02 23:04:20.5864 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.5864 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:20.5864 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:04:20.5864 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 3.1497ms 
+2024-07-02 23:04:20.7440 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:04:20.7440 TRACE All hosts are allowed. 
+2024-07-02 23:04:20.7440 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.7440 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.7440 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.7440 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:04:20.7440 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:04:20.7440 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.7440 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:04:20.7440 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:04:20.7440 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:04:20.7440 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:04:20.7440 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:04:20.7440 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:04:20.7440 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.7440 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.7440 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.7440 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.7440 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.7440 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.7440 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:04:20.7440 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:04:20.7440 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:04:20.7440 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:04:20.7440 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.7440 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.7440 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.7440 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.7440 DEBUG A data reader was disposed. 
+2024-07-02 23:04:20.7440 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.7440 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.7440 INFO Get All User 
+2024-07-02 23:04:20.7440 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.033ms. 
+2024-07-02 23:04:20.7440 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.7440 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.7440 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.7440 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.7440 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.7440 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.7440 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.7440 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:04:20.7440 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:04:20.7440 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:04:20.7440 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:04:20.7440 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:04:20.7440 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:04:20.7440 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:04:20.7440 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.7440 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.7440 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.7440 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 3.0741ms 
+2024-07-02 23:04:20.7440 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.7440 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:20.7440 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:04:20.7440 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 3.4630ms 
+2024-07-02 23:04:20.8887 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:04:20.8887 TRACE All hosts are allowed. 
+2024-07-02 23:04:20.8887 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.8887 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:04:20.8887 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.8887 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:04:20.8887 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:04:20.8887 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.8887 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:04:20.8887 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:04:20.8887 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:04:20.8887 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:04:20.8887 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:04:20.8887 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:04:20.8887 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.8887 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:20.8887 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.8887 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.8887 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.8887 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.8887 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:04:20.8887 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:04:20.8887 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:04:20.8887 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:04:20.8887 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.8887 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.8887 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.8887 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:20.8887 DEBUG A data reader was disposed. 
+2024-07-02 23:04:20.8887 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.8887 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:20.8887 INFO Get All User 
+2024-07-02 23:04:20.8887 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.3515ms. 
+2024-07-02 23:04:20.8887 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.8887 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:20.8887 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.8887 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:20.8887 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.8887 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.8887 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.8887 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:04:20.8887 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:04:20.8887 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:04:20.8887 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:04:20.8887 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:04:20.8887 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:04:20.8887 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:04:20.8887 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:20.8887 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.8887 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:20.8887 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 2.8265ms 
+2024-07-02 23:04:20.8887 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:20.8887 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:20.8887 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:04:20.8887 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 3.2936ms 
+2024-07-02 23:04:21.0431 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:04:21.0431 TRACE All hosts are allowed. 
+2024-07-02 23:04:21.0431 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:04:21.0431 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:04:21.0431 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:21.0431 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:04:21.0431 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:04:21.0431 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:21.0431 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:04:21.0431 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:04:21.0431 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:04:21.0431 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:04:21.0431 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:04:21.0431 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:04:21.0431 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:21.0431 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:21.0431 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:21.0431 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:21.0431 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:21.0431 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:21.0431 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:04:21.0431 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:04:21.0431 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:04:21.0431 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:04:21.0431 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:21.0431 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:21.0431 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:21.0431 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:21.0431 DEBUG A data reader was disposed. 
+2024-07-02 23:04:21.0431 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:21.0431 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:21.0431 INFO Get All User 
+2024-07-02 23:04:21.0431 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.1793ms. 
+2024-07-02 23:04:21.0431 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:21.0431 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:21.0431 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:21.0431 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:21.0431 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:21.0431 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:21.0431 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:21.0431 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:04:21.0431 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:04:21.0431 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:04:21.0431 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:04:21.0431 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:04:21.0431 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:04:21.0431 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:04:21.0431 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:21.0431 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:21.0431 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:21.0431 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 2.583ms 
+2024-07-02 23:04:21.0431 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:21.0431 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:21.0431 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:04:21.0431 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 3.1274ms 
+2024-07-02 23:04:21.1997 INFO Request starting HTTP/1.1 GET http://localhost:5240/api/v1/Users - - 
+2024-07-02 23:04:21.1997 TRACE All hosts are allowed. 
+2024-07-02 23:04:21.1997 DEBUG 1 candidate(s) found for the request path '/api/v1/Users' 
+2024-07-02 23:04:21.1997 DEBUG Endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' with route pattern 'api/v1/Users' is valid for the request path '/api/v1/Users' 
+2024-07-02 23:04:21.1997 DEBUG Request matched endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:21.1997 DEBUG Static files was skipped as the request already matched an endpoint. 
+2024-07-02 23:04:21.1997 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2024-07-02 23:04:21.1997 INFO Executing endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:21.1997 INFO Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SportEventsAPI.Models.UserResponse]]] GetUsers() on controller SportEventsAPI.Controllers.UsersController (SportEventsAPI). 
+2024-07-02 23:04:21.1997 DEBUG Execution plan of authorization filters (in the following order): None 
+2024-07-02 23:04:21.1997 DEBUG Execution plan of resource filters (in the following order): None 
+2024-07-02 23:04:21.1997 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-02 23:04:21.1997 DEBUG Execution plan of exception filters (in the following order): None 
+2024-07-02 23:04:21.1997 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-02 23:04:21.1997 DEBUG Executing controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:21.1997 DEBUG Executed controller factory for controller SportEventsAPI.Controllers.UsersController (SportEventsAPI) 
+2024-07-02 23:04:21.1997 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:21.1997 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:21.1997 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:21.1997 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:21.1997 INFO Executing action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) - Validation state: Valid 
+2024-07-02 23:04:21.1997 INFO Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None 
+2024-07-02 23:04:21.1997 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-07-02 23:04:21.1997 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-02 23:04:21.1997 DEBUG Opening connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:21.1997 DEBUG Opened connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:21.1997 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:21.1997 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2024-07-02 23:04:21.1997 DEBUG A data reader was disposed. 
+2024-07-02 23:04:21.1997 DEBUG Closing connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:21.1997 DEBUG Closed connection to database 'sport_event_db' on server 'DESKTOP-DGTK576\MSSQLSERVER2'. 
+2024-07-02 23:04:21.1997 INFO Get All User 
+2024-07-02 23:04:21.1997 INFO Executed action method SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.434ms. 
+2024-07-02 23:04:21.1997 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:21.1997 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-02 23:04:21.1997 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:21.1997 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-02 23:04:21.1997 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:21.1997 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:21.1997 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:21.1997 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-07-02 23:04:21.1997 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-07-02 23:04:21.1997 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-07-02 23:04:21.1997 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-07-02 23:04:21.1997 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-07-02 23:04:21.1997 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-07-02 23:04:21.1997 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SportEventsAPI.Models.UserResponse, SportEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-07-02 23:04:21.1997 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-07-02 23:04:21.1997 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:21.1997 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-07-02 23:04:21.1997 INFO Executed action SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI) in 3.0196ms 
+2024-07-02 23:04:21.1997 INFO Executed endpoint 'SportEventsAPI.Controllers.UsersController.GetUsers (SportEventsAPI)' 
+2024-07-02 23:04:21.1997 DEBUG Connection id "0HN4QM2E5AC1A" completed keep alive response. 
+2024-07-02 23:04:21.1997 DEBUG 'ApplicationDbContext' disposed. 
+2024-07-02 23:04:21.1997 INFO Request finished HTTP/1.1 GET http://localhost:5240/api/v1/Users - - - 200 - application/json;+charset=utf-8 3.6107ms 
